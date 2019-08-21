@@ -1,21 +1,21 @@
 ---
 driver:
   name: ec2
-  aws_ssh_key_id: chef_demo_2x
-  region: us-west-2
-  security_group_ids: sg-0d33de6c779f2cb71
-  subnet_id: subnet-07d1f29dbba102c8e
+  aws_ssh_key_id: bagio-ireleand
+  region: eu-west-1
+  security_group_ids: sg-053b3b9a06121b8fa
+  subnet_id: subnet-0f1e127abe5456236
   associate_public_ip: true
   instance_type: t2.micro
   tags:
     # Replace YOURNAME and YOURCOMPANY here
-    Name: "Chef tbagio Training Node for bagiotio-self"
+    Name: "<tbagio> Training Node"
     user: Administrator
     X-Contact: "Tio Bagio"
     X-Application: "apac"
     X-Dept: "sales"
     X-Customer: "apjcorp"
-    X-Project: "BJC-Demo"
+    X-Project: "Training"
     X-Termination-Date: "2018-07-20T12:04:30Z"
     X-TTL: 4
 
@@ -24,24 +24,23 @@ provisioner:
   client_rb:
     chef_license: accept
     local_mode: true
-  attributes:
-    chef_license: accept
-    effortless:
-      origin: chef
-      pkg: chef-client
-      channel: unstable
 
 verifier:
   name: inspec
   format: documentation
 
 platforms:
-  - name: centos-6
+  - name: ubuntu-1604
     transport:
-      username: centos
-      ssh_key:  ~\.ssh\id_rsa
+      username: ubuntu
+      ssh_key:  ~\.ssh\emea-sa-shared
+    driver:
+      image_search:
+        owner-id: "099720109477"
+        name: "ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20170414"
     driver_config:
       user_data: ./kitchen_user_data
+
 
 suites:
   - name: default

@@ -1,3 +1,42 @@
-I, [2019-07-28T07:40:17.530729 #4540]  INFO -- default-centos-6: -----> Verifying <default-centos-6>...
-I, [2019-07-28T07:40:18.721868 #4540]  INFO -- default-centos-6: Loaded tests from {:path=>"C:.Users.chef.cookbooks.training_webserver.test.smoke.default"} 
-I, [2019-07-28T07:40:19.481953 #4540]  INFO -- default-centos-6: Finished verifying <default-centos-6> (0m1.95s).
+I, [2019-08-21T07:21:28.332603 #6744]  INFO -- default-centos-6: -----> Creating <default-centos-6>...
+E, [2019-08-21T07:21:28.956498 #6744] ERROR -- default-centos-6: Create failed on instance <default-centos-6>.
+E, [2019-08-21T07:21:28.956722 #6744] ERROR -- default-centos-6: ------Exception-------
+E, [2019-08-21T07:21:28.956815 #6744] ERROR -- default-centos-6: Class: Aws::EC2::Errors::InvalidAMIIDNotFound
+E, [2019-08-21T07:21:28.956893 #6744] ERROR -- default-centos-6: Message: The image id '[ami-a8d2d7ce]' does not exist
+E, [2019-08-21T07:21:28.956969 #6744] ERROR -- default-centos-6: ----------------------
+E, [2019-08-21T07:21:28.957697 #6744] ERROR -- default-centos-6: ------Backtrace-------
+E, [2019-08-21T07:21:28.957769 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/seahorse/client/plugins/raise_response_errors.rb:15:in `call'
+E, [2019-08-21T07:21:28.957832 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/aws-sdk-core/plugins/jsonvalue_converter.rb:20:in `call'
+E, [2019-08-21T07:21:28.957892 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/aws-sdk-core/plugins/idempotency_token.rb:18:in `call'
+E, [2019-08-21T07:21:28.957951 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/aws-sdk-core/plugins/param_converter.rb:20:in `call'
+E, [2019-08-21T07:21:28.958010 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/aws-sdk-core/plugins/response_paging.rb:26:in `call'
+E, [2019-08-21T07:21:28.958069 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/seahorse/client/plugins/response_target.rb:21:in `call'
+E, [2019-08-21T07:21:28.958128 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/seahorse/client/request.rb:70:in `send_request'
+E, [2019-08-21T07:21:28.958186 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-core-2.11.50/lib/seahorse/client/base.rb:207:in `block (2 levels) in define_operation_methods'
+E, [2019-08-21T07:21:28.958245 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-resources-2.11.50/lib/aws-sdk-resources/request.rb:24:in `call'
+E, [2019-08-21T07:21:28.958310 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-resources-2.11.50/lib/aws-sdk-resources/operations.rb:41:in `call'
+E, [2019-08-21T07:21:28.958368 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-resources-2.11.50/lib/aws-sdk-resources/operations.rb:61:in `call'
+E, [2019-08-21T07:21:28.958434 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-resources-2.11.50/lib/aws-sdk-resources/resource.rb:147:in `load'
+E, [2019-08-21T07:21:28.958492 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-resources-2.11.50/lib/aws-sdk-resources/resource.rb:120:in `data'
+E, [2019-08-21T07:21:28.958549 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/aws-sdk-resources-2.11.50/lib/aws-sdk-resources/resource.rb:223:in `block in add_data_attribute'
+E, [2019-08-21T07:21:28.958606 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:687:in `show_chosen_image'
+E, [2019-08-21T07:21:28.958674 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:328:in `image'
+E, [2019-08-21T07:21:28.958732 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:354:in `actual_platform'
+E, [2019-08-21T07:21:28.958788 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:384:in `update_username'
+E, [2019-08-21T07:21:28.958879 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-ec2-2.2.1/lib/kitchen/driver/ec2.rb:204:in `create'
+E, [2019-08-21T07:21:28.958944 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:469:in `public_send'
+E, [2019-08-21T07:21:28.959002 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:469:in `block in perform_action'
+E, [2019-08-21T07:21:28.959059 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2019-08-21T07:21:28.959115 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2019-08-21T07:21:28.959172 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2019-08-21T07:21:28.959242 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:497:in `action'
+E, [2019-08-21T07:21:28.959304 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:469:in `perform_action'
+E, [2019-08-21T07:21:28.959364 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:379:in `create_action'
+E, [2019-08-21T07:21:28.959420 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2019-08-21T07:21:28.959477 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:367:in `each'
+E, [2019-08-21T07:21:28.959533 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2019-08-21T07:21:28.959590 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/instance.rb:124:in `create'
+E, [2019-08-21T07:21:28.959657 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-08-21T07:21:28.959714 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-08-21T07:21:28.959771 #6744] ERROR -- default-centos-6: C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.21.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-08-21T07:21:28.959839 #6744] ERROR -- default-centos-6: ----End Backtrace-----

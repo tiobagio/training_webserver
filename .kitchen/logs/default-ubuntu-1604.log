@@ -1,0 +1,102 @@
+I, [2019-08-21T08:43:58.502466 #1116]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2019-08-21T08:43:59.219181 #1116]  INFO -- default-ubuntu-1604: Detected platform: ubuntu version 16.04 on x86_64. Instance Type: t2.micro. Default username: ubuntu (default).
+I, [2019-08-21T08:43:59.219521 #1116]  INFO -- default-ubuntu-1604: If you are not using an account that qualifies under the AWS
+free-tier, you may be charged to run these suites. The charge
+should be minimal, but neither Test Kitchen nor its maintainers
+are responsible for your incurred costs.
+
+I, [2019-08-21T08:44:00.050022 #1116]  INFO -- default-ubuntu-1604: Instance <i-0b91fd17ca6ae78e0> requested.
+I, [2019-08-21T08:44:00.050361 #1116]  INFO -- default-ubuntu-1604: Polling AWS for existence, attempt 0...
+I, [2019-08-21T08:44:00.144532 #1116]  INFO -- default-ubuntu-1604: Attempting to tag the instance, 0 retries
+I, [2019-08-21T08:44:00.439948 #1116]  INFO -- default-ubuntu-1604: EC2 instance <i-0b91fd17ca6ae78e0> created.
+I, [2019-08-21T08:44:00.440319 #1116]  INFO -- default-ubuntu-1604: Waited 0/300s for instance <i-0b91fd17ca6ae78e0> volumes to be ready.
+I, [2019-08-21T08:44:05.658491 #1116]  INFO -- default-ubuntu-1604: Waited 5/300s for instance <i-0b91fd17ca6ae78e0> volumes to be ready.
+I, [2019-08-21T08:44:10.901269 #1116]  INFO -- default-ubuntu-1604: Waited 10/300s for instance <i-0b91fd17ca6ae78e0> volumes to be ready.
+I, [2019-08-21T08:44:11.356748 #1116]  INFO -- default-ubuntu-1604: Waited 0/300s for instance <i-0b91fd17ca6ae78e0> to become ready.
+I, [2019-08-21T08:44:16.443065 #1116]  INFO -- default-ubuntu-1604: Waited 5/300s for instance <i-0b91fd17ca6ae78e0> to become ready.
+I, [2019-08-21T08:44:21.565832 #1116]  INFO -- default-ubuntu-1604: Waited 10/300s for instance <i-0b91fd17ca6ae78e0> to become ready.
+I, [2019-08-21T08:44:26.688636 #1116]  INFO -- default-ubuntu-1604: Waited 15/300s for instance <i-0b91fd17ca6ae78e0> to become ready.
+I, [2019-08-21T08:44:31.844433 #1116]  INFO -- default-ubuntu-1604: Waited 20/300s for instance <i-0b91fd17ca6ae78e0> to become ready.
+I, [2019-08-21T08:44:36.967236 #1116]  INFO -- default-ubuntu-1604: Waited 25/300s for instance <i-0b91fd17ca6ae78e0> to become ready.
+I, [2019-08-21T08:44:42.145105 #1116]  INFO -- default-ubuntu-1604: Waited 30/300s for instance <i-0b91fd17ca6ae78e0> to become ready.
+I, [2019-08-21T08:44:42.227367 #1116]  INFO -- default-ubuntu-1604: EC2 instance <i-0b91fd17ca6ae78e0> ready (hostname: ec2-34-243-85-22.eu-west-1.compute.amazonaws.com).
+I, [2019-08-21T08:44:42.847456 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:44:45.950302 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:44:49.060264 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:44:52.159210 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:44:55.268944 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:44:58.367903 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:01.466992 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:04.567698 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:07.644534 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:10.754568 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:13.865348 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:16.965232 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:20.074100 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:23.183002 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:26.292876 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:29.401691 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:32.499630 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:35.597480 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:38.673330 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:41.771241 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:44.880098 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:47.957120 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:51.066787 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:54.142676 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:45:57.250595 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:00.348553 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:03.457509 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:06.556176 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:09.655231 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:12.763941 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:15.872856 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:18.981737 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:22.079605 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:25.188561 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:28.264371 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:31.363376 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:34.472203 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:37.581061 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:40.689885 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:43.787807 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:46.896729 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:49.995556 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:53.105433 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:56.182348 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:46:59.291178 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:02.400046 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:05.476976 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:08.574827 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:11.684724 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:14.762562 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:17.871511 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:20.980405 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:24.057192 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:27.155104 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:30.264023 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:33.372884 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:36.483755 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:39.592495 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:42.690455 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:45.800347 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:48.898152 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:52.007093 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:55.083972 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:47:58.193897 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:01.302756 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:04.411619 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:07.509590 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:10.587311 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:13.685257 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:16.793120 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:19.902976 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:23.011920 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:26.109753 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:29.219643 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:32.328505 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:35.426407 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:38.535247 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:41.634146 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:44.743076 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
+I, [2019-08-21T08:48:47.819884 #1116]  INFO -- default-ubuntu-1604: Waiting for SSH service on ec2-34-243-85-22.eu-west-1.compute.amazonaws.com:22, retrying in 3 seconds
